@@ -25,7 +25,7 @@ This is a classic Rock Paper Scissors game implemented using **HTML**, **CSS**, 
 
 ## Live Demo
 
-Check out the game live: [Rock Paper Scissors - Live Demo](#)
+Check out the game live: [Rock Paper Scissors - Live Demo](https://ajay-dhangar.github.io/rock-paper-scissors-game/)
 
 ## Installation
 
