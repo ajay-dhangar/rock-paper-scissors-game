@@ -45,7 +45,7 @@ optionImages.forEach((image, index) => {
   image.addEventListener("click", (e) => {
     image.classList.add("active");
 
-    userResult.src = cpuResult.src = "../images/rock.png";
+    userResult.src = cpuResult.src = "./images/rock.png";
     result.textContent = "Wait...";
 
     optionImages.forEach((image2, index2) => {
@@ -62,9 +62,9 @@ optionImages.forEach((image, index) => {
 
       let randomNumber = Math.floor(Math.random() * 3);
       let cpuImages = [
-        "../images/rock.png",
-        "../images/paper.png",
-        "../images/scissors.png",
+        "./images/rock.png",
+        "./images/paper.png",
+        "./images/scissors.png",
       ];
       cpuResult.src = cpuImages[randomNumber];
 
